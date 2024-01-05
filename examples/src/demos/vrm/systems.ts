@@ -17,7 +17,7 @@ export function initScene(commands: Commands, coreStore: Res<Mut<CoreStore>>) {
 
   const transform = new Transform([0, -0.5, 0]);
   const parent = new Parent(sceneId);
-  const vrm = new Vrm("/k-robot.vrm");
+  const vrm = new Vrm("/Hikari_hanabi_gara_no_yukata.vrm");
 
   commands
     .spawn(true)
